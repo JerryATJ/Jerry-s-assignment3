@@ -1,0 +1,82 @@
+ /***********************************
+    UNIVERSAL SELECTOR
+* **********************************/ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+ /***********************************
+    NAVIGATION AND ANCHOR TAGS(remember to give you anchor tag display of inline-block
+* **********************************/ 
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex: row wrap;
+    padding: 0px 10%;
+    margin-top:40px ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px;
+}
+
+a:hover{
+    color: green;
+    background-color: #34E07D;
+}
+.signup{
+    background-color: #34E07D;
+    border-radius: 20px ;
+    font-weight: bold;
+    color: white;
+}
+.logo{
+    background-color: #34E07D;  
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+ /***********************************
+    MAIN ELEMENT 
+* **********************************/ 
+
+main{
+    padding: 0px 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+main p{
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+main img{
+    width: 800px;
+    height:500px
+}
+
+main a{
+    background-color: #34E07D;  
+    font-weight: bold;
+    color: white;
+    border-radius: 20px ;
+}
